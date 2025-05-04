@@ -13,8 +13,15 @@
 <body>
     <header>
         <div class="container">
-            <div class="burger"></div>
-            <nav class="flex justify-between menu align-center">
+            <div class="burger-menu" data-status="off">
+                <label class="burger" for="burger">
+                    <input type="checkbox" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+            </div>
+            <nav id="nav" class="flex justify-between menu align-center">
                 <a href="" class="logo"><span class="text-orange">TiChef</span>.com</a>
                 <ul>
                     <li><a href="">Nos menus</a></li>
@@ -111,6 +118,7 @@
             </div>
         </div>
     </section>
+    <script src="app.js"></script>
 </body>
 
 </html>

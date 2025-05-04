@@ -18,11 +18,9 @@ header{
 }
 
 
-.burger{
+.burger-menu{
     display: none;
-    width: 32px;
-    height: 32px;
-    background-color: orange;
+
 }
 
 
@@ -101,6 +99,7 @@ a{
     align-items: flex-start;
 }
 /*Composants*/
+
 /*Carte*/
 .legende{
     background-color: var(--orange);
@@ -139,6 +138,67 @@ a{
     border-radius: 32px;
    
 }
+
+.burger {
+  position: relative;
+  width: 20px;
+  height: 15px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+.burger input {
+  display: none;
+}
+
+.burger span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
+
+.burger input:checked ~ span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 2px;
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 14px;
+  left: 2px;
+}
+
 /*Mise en page*/
 
 .container{
@@ -154,6 +214,7 @@ a{
 .mt-16{
     margin-top: 16px;
 }
+
 
 
 
@@ -286,19 +347,19 @@ les resolutions d'ecrans d'apres un petit script sass*/
     header{
         border-bottom: none;
     }
-    .burger{
+    .burger-menu{
         display: block;
     }
     .menu{
         position : fixed;
         /*top a regler*/
-        top: 64px;
+        top: 32px;
         width: 250px;
         left:-250px;
         padding: 16px;
         transition: left 0.3s ease;
         /* hauteur a regler en fonction du top*/
-        height: calc(100vh - 64px);
+        height: calc(100vh - 32px);
         background-color: rgb(255, 232, 188);
         flex-direction: column;
         justify-content: flex-start;
@@ -311,12 +372,17 @@ les resolutions d'ecrans d'apres un petit script sass*/
         }
 
     }
-
+    .lateral-open{
+      left:0;
+    }
     .card{
         margin-top: 32px;
     }
-    h1,h2{
+    h1{
         font-size: 20px;
+    }
+    h2{
+      font-size: 18px;
     }
     p{
         font-size: 12px;
