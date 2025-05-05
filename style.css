@@ -14,7 +14,11 @@
 }
 header{
     border-bottom: 1px solid #000;
-    padding: 8px 0;
+    padding: 9px 0;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -363,7 +367,10 @@ les resolutions d'ecrans d'apres un petit script sass*/
         background-color: rgb(255, 232, 188);
         flex-direction: column;
         justify-content: flex-start;
-      
+        align-items: flex-start;
+        .btn{
+          text-align: center;
+        }
         ul{
             display: block;
             li{
