@@ -10,3 +10,19 @@ window.addEventListener("resize",()=>{
         burger.checked = false;
     }
 })
+
+
+fetch("https://fakestoreapi.com/products")
+.then(rep=>rep.json())
+.then(data=>{
+     // ici et uniquement ici j'ai acces a mon tableau de données !
+     console.log(data)
+     affiche(data)
+
+   
+})
+
+
+function affiche(donnee){
+
+}
