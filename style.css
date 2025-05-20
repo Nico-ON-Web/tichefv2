@@ -396,4 +396,22 @@ les resolutions d'ecrans d'apres un petit script sass*/
     }
 }
 
+.minia{
+  height: 100px;
+  object-fit: cover;
+}
 
+.vignette{
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#recherche{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  padding: 8px;
+}
