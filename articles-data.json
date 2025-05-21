@@ -1,0 +1,38 @@
+[
+    {
+      "titre": "Les secrets d’une pâte à crêpes parfaite",
+      "date": "2025-05-15",
+      "img": "https://images.pexels.com/photos/2613471/pexels-photo-2613471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Claire Dubois",
+      "resume": "Découvrez les astuces pour réussir une pâte à crêpes légère, sans grumeaux, idéale pour les gourmands sucrés ou salés."
+    },
+    {
+      "titre": "Comment cuisiner un risotto crémeux à souhait",
+      "date": "2025-05-12",
+      "img": "https://images.pexels.com/photos/6129294/pexels-photo-6129294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Marc Lefèvre",
+      "resume": "Une méthode simple et inratable pour un risotto onctueux aux champignons, parfait pour impressionner vos invités."
+    },
+    {
+      "titre": "Le guide ultime du pain maison",
+      "date": "2025-05-10",
+      "img": "https://images.pexels.com/photos/166021/pexels-photo-166021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Julie Morel",
+      "resume": "Apprenez à faire votre propre pain avec ou sans machine, et maîtrisez la fermentation naturelle."
+    },
+    {
+      "titre": "5 recettes de smoothies pour bien commencer la journée",
+      "date": "2025-05-18",
+      "img": "https://images.pexels.com/photos/2424034/pexels-photo-2424034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Thomas Garnier",
+      "resume": "Des recettes saines et colorées pour faire le plein d’énergie dès le matin, à base de fruits frais et de superaliments."
+    },
+    {
+      "titre": "Tarte aux fraises : la recette de grand-mère revisitée",
+      "date": "2025-05-19",
+      "img": "https://images.pexels.com/photos/32134448/pexels-photo-32134448/free-photo-of-delicious-pavlova-with-fresh-strawberries.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "auteur": "Élodie Martin",
+      "resume": "Une version moderne de la tarte aux fraises traditionnelle, avec une crème pâtissière légère et une pâte croustillante."
+    }
+  ]
+  

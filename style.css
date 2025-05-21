@@ -206,7 +206,7 @@ a{
 /*Mise en page*/
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 16px;
@@ -218,7 +218,9 @@ a{
 .mt-16{
     margin-top: 16px;
 }
-
+.mt-64{
+  margin-top: 64px;
+}
 
 
 
@@ -414,4 +416,16 @@ les resolutions d'ecrans d'apres un petit script sass*/
   margin-right: auto;
   margin-top: 16px;
   padding: 8px;
+}
+
+article img{
+  height: 200px;
+  object-fit: cover;
+
+}
+
+
+article{
+  padding: 8px;
+  background-color: var(--light-orange);
 }
